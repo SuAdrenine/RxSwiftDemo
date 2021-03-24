@@ -37,7 +37,10 @@ class RootViewController: BaseViewController {
     let datas = Observable.just([
         ViewControllerDataModel.init(vcName: "RxSwift2ViewController", title: "RxSwift的使用详解2（响应式编程与传统式编程的比较样例）"),
         ViewControllerDataModel.init(vcName: "RxSwift3ViewController", title: "RxSwift的使用详解3（Observable介绍、创建可观察序列）"),
-        ViewControllerDataModel.init(vcName: "RxSwift4ViewController", title: "RxSwift的使用详解4（Observable订阅、事件监听、订阅销毁）")
+        ViewControllerDataModel.init(vcName: "RxSwift4ViewController", title: "RxSwift的使用详解4（Observable订阅、事件监听、订阅销毁）"),
+        ViewControllerDataModel.init(vcName: "RxSwift5ViewController", title: "RxSwift的使用详解5（观察者1： AnyObserver、Binder）"),
+        ViewControllerDataModel.init(vcName: "RxSwift6ViewController", title: "RxSwift的使用详解6（观察者2： 自定义可绑定属性）"),
+        ViewControllerDataModel.init(vcName: "RxSwift7ViewController", title: "RxSwift的使用详解7（Subjects、Variables）")
     ])
     
     let disposeBag = DisposeBag()
@@ -54,7 +57,7 @@ class RootViewController: BaseViewController {
         }.disposed(by: disposeBag)
         
         tableView.rx.modelSelected(ViewControllerDataModel.self).subscribe(onNext: {data in
-            print("\(data)")
+//            print("\(data)")
             let vc = UIViewController.classFromString(data.vcName)
             self.navigationController?.pushViewController(vc, animated: true)
         }).disposed(by: disposeBag)

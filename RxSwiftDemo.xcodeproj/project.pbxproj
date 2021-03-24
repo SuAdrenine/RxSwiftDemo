@@ -18,6 +18,9 @@
 		EA128CE426083DCD0025EC33 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128CE326083DCD0025EC33 /* ViewControllerExtension.swift */; };
 		EA128CEA260842070025EC33 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128CE9260842070025EC33 /* BaseViewController.swift */; };
 		EA128CEE260876AF0025EC33 /* RxSwift4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128CED260876AF0025EC33 /* RxSwift4ViewController.swift */; };
+		EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */; };
+		EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */; };
+		EA128D06260AD8B00025EC33 /* RxSwift7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		EA128CE326083DCD0025EC33 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		EA128CE9260842070025EC33 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EA128CED260876AF0025EC33 /* RxSwift4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift4ViewController.swift; sourceTree = "<group>"; };
+		EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift5ViewController.swift; sourceTree = "<group>"; };
+		EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift6ViewController.swift; sourceTree = "<group>"; };
+		EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift7ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +108,14 @@
 		EA128CDB26083B7E0025EC33 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EA128CC42605F2430025EC33 /* RootViewController.swift */,
 				EA128CE9260842070025EC33 /* BaseViewController.swift */,
+				EA128CC42605F2430025EC33 /* RootViewController.swift */,
 				EA128CDC26083B990025EC33 /* RxSwift2ViewController.swift */,
 				EA128CDF26083D320025EC33 /* RxSwift3ViewController.swift */,
 				EA128CED260876AF0025EC33 /* RxSwift4ViewController.swift */,
+				EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */,
+				EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */,
+				EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -217,10 +226,13 @@
 			files = (
 				EA128CE026083D320025EC33 /* RxSwift3ViewController.swift in Sources */,
 				EA128CC52605F2430025EC33 /* RootViewController.swift in Sources */,
+				EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */,
 				EA128CEE260876AF0025EC33 /* RxSwift4ViewController.swift in Sources */,
+				EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */,
 				EA128CE426083DCD0025EC33 /* ViewControllerExtension.swift in Sources */,
 				EA128CC12605F2430025EC33 /* AppDelegate.swift in Sources */,
 				EA128CDD26083B990025EC33 /* RxSwift2ViewController.swift in Sources */,
+				EA128D06260AD8B00025EC33 /* RxSwift7ViewController.swift in Sources */,
 				EA128CEA260842070025EC33 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

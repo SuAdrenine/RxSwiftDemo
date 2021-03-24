@@ -14,6 +14,12 @@ class RxSwift4ViewController: BaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+//        subscribe1()
+//        subscribe2()
+//        lifeCycle()
+//        dispose()
+//        disposeBag()
     }
     
     // 订阅的几种用法

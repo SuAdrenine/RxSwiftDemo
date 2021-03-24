@@ -28,8 +28,19 @@ class RxSwift3ViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        just()
+//        of()
+//        from()
+//        empty()
+//        never()
+//        error()
+//        range()
+//        repeatElement()
+//        generate()
+//        create()
+//        deferred()
 //        interval()
-        
+//        timer()
     }
     
     func just() {
