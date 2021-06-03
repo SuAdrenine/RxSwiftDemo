@@ -40,7 +40,13 @@ class RootViewController: BaseViewController {
         ViewControllerDataModel.init(vcName: "RxSwift4ViewController", title: "RxSwift的使用详解4（Observable订阅、事件监听、订阅销毁）"),
         ViewControllerDataModel.init(vcName: "RxSwift5ViewController", title: "RxSwift的使用详解5（观察者1： AnyObserver、Binder）"),
         ViewControllerDataModel.init(vcName: "RxSwift6ViewController", title: "RxSwift的使用详解6（观察者2： 自定义可绑定属性）"),
-        ViewControllerDataModel.init(vcName: "RxSwift7ViewController", title: "RxSwift的使用详解7（Subjects、Variables）")
+        ViewControllerDataModel.init(vcName: "RxSwift7ViewController", title: "RxSwift的使用详解7（Subjects、Variables）"),
+        ViewControllerDataModel.init(vcName: "RxSwift8ViewController", title: "RxSwift的使用详解8（变换操作符：buffer、map、flatMap、scan等）"),
+        ViewControllerDataModel.init(vcName: "RxSwift9ViewController", title: "RxSwift的使用详解9（过滤操作符：filter、take、skip等）"),
+        ViewControllerDataModel.init(vcName: "RxSwift10ViewController", title: "RxSwift的使用详解10（条件和布尔操作符：amb、takeWhile、skipWhile等）"),
+        ViewControllerDataModel.init(vcName: "RxSwift11ViewController", title: "RxSwift的使用详解11（结合操作符：startWith、merge、zip等）"),
+        ViewControllerDataModel.init(vcName: "RxSwift12ViewController", title: "RxSwift的使用详解12（算数&聚合操作符：toArray、reduce、concat）"),
+        ViewControllerDataModel.init(vcName: "RxSwift13ViewController", title: "RxSwift的使用详解13（连接操作符：connect、publish、replay、multicast）")
     ])
     
     let disposeBag = DisposeBag()

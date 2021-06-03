@@ -21,6 +21,12 @@
 		EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */; };
 		EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */; };
 		EA128D06260AD8B00025EC33 /* RxSwift7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */; };
+		EA384017265E719A00897587 /* RxSwift8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA384016265E719A00897587 /* RxSwift8ViewController.swift */; };
+		EA384019265E71A500897587 /* RxSwift9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA384018265E71A500897587 /* RxSwift9ViewController.swift */; };
+		EA38401B265E71AE00897587 /* RxSwift10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38401A265E71AE00897587 /* RxSwift10ViewController.swift */; };
+		EA38401D265E720A00897587 /* RxSwift11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38401C265E720A00897587 /* RxSwift11ViewController.swift */; };
+		EA38401F265E721300897587 /* RxSwift12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38401E265E721300897587 /* RxSwift12ViewController.swift */; };
+		EA384021265E721D00897587 /* RxSwift13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA384020265E721D00897587 /* RxSwift13ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,12 @@
 		EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift5ViewController.swift; sourceTree = "<group>"; };
 		EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift6ViewController.swift; sourceTree = "<group>"; };
 		EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift7ViewController.swift; sourceTree = "<group>"; };
+		EA384016265E719A00897587 /* RxSwift8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift8ViewController.swift; sourceTree = "<group>"; };
+		EA384018265E71A500897587 /* RxSwift9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift9ViewController.swift; sourceTree = "<group>"; };
+		EA38401A265E71AE00897587 /* RxSwift10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift10ViewController.swift; sourceTree = "<group>"; };
+		EA38401C265E720A00897587 /* RxSwift11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift11ViewController.swift; sourceTree = "<group>"; };
+		EA38401E265E721300897587 /* RxSwift12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift12ViewController.swift; sourceTree = "<group>"; };
+		EA384020265E721D00897587 /* RxSwift13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift13ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,12 @@
 				EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */,
 				EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */,
 				EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */,
+				EA384016265E719A00897587 /* RxSwift8ViewController.swift */,
+				EA384018265E71A500897587 /* RxSwift9ViewController.swift */,
+				EA38401A265E71AE00897587 /* RxSwift10ViewController.swift */,
+				EA38401C265E720A00897587 /* RxSwift11ViewController.swift */,
+				EA38401E265E721300897587 /* RxSwift12ViewController.swift */,
+				EA384020265E721D00897587 /* RxSwift13ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -225,14 +243,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA128CE026083D320025EC33 /* RxSwift3ViewController.swift in Sources */,
+				EA38401F265E721300897587 /* RxSwift12ViewController.swift in Sources */,
+				EA384021265E721D00897587 /* RxSwift13ViewController.swift in Sources */,
 				EA128CC52605F2430025EC33 /* RootViewController.swift in Sources */,
 				EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */,
+				EA38401B265E71AE00897587 /* RxSwift10ViewController.swift in Sources */,
 				EA128CEE260876AF0025EC33 /* RxSwift4ViewController.swift in Sources */,
 				EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */,
 				EA128CE426083DCD0025EC33 /* ViewControllerExtension.swift in Sources */,
+				EA384019265E71A500897587 /* RxSwift9ViewController.swift in Sources */,
 				EA128CC12605F2430025EC33 /* AppDelegate.swift in Sources */,
 				EA128CDD26083B990025EC33 /* RxSwift2ViewController.swift in Sources */,
 				EA128D06260AD8B00025EC33 /* RxSwift7ViewController.swift in Sources */,
+				EA384017265E719A00897587 /* RxSwift8ViewController.swift in Sources */,
+				EA38401D265E720A00897587 /* RxSwift11ViewController.swift in Sources */,
 				EA128CEA260842070025EC33 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
