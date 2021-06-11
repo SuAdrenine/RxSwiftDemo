@@ -27,7 +27,7 @@ extension ViewControllerDataModel: CustomStringConvertible {
 }
 
 class RootViewController: BaseViewController {
-
+    
     lazy var tableView: UITableView = {
         let tableView = UITableView.init(frame: view.bounds, style: .grouped)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
@@ -46,7 +46,9 @@ class RootViewController: BaseViewController {
         ViewControllerDataModel.init(vcName: "RxSwift10ViewController", title: "RxSwift的使用详解10（条件和布尔操作符：amb、takeWhile、skipWhile等）"),
         ViewControllerDataModel.init(vcName: "RxSwift11ViewController", title: "RxSwift的使用详解11（结合操作符：startWith、merge、zip等）"),
         ViewControllerDataModel.init(vcName: "RxSwift12ViewController", title: "RxSwift的使用详解12（算数&聚合操作符：toArray、reduce、concat）"),
-        ViewControllerDataModel.init(vcName: "RxSwift13ViewController", title: "RxSwift的使用详解13（连接操作符：connect、publish、replay、multicast）")
+        ViewControllerDataModel.init(vcName: "RxSwift13ViewController", title: "RxSwift的使用详解13（连接操作符：connect、publish、replay、multicast）"),
+        ViewControllerDataModel.init(vcName: "RxSwift34ViewController", title: "RxSwift的使用详解34（UITableView的使用5：可编辑表格）"),
+        ViewControllerDataModel.init(vcName: "RxSwift52ViewController", title: "RxSwift的使用详解52（MVVM架构演示2：使用Observable样例）")
     ])
     
     let disposeBag = DisposeBag()
@@ -56,20 +58,27 @@ class RootViewController: BaseViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .white
         view.addSubview(tableView)
-        datas.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: UITableViewCell.self)) { _, data, cell in
-//            let cell = UITableViewCell.init(style: .subtitle, reuseIdentifier: "cell")
-            cell.textLabel?.text = data.vcName
-            cell.detailTextLabel?.text = data.title
+        //        datas.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: UITableViewCell.self)) { _, data, cell in
+        ////            let cell = UITableViewCell.init(style: .subtitle, reuseIdentifier: "cell")
+        //            cell.textLabel?.text = data.vcName
+        //            cell.detailTextLabel?.text = data.title
+        //        }.disposed(by: disposeBag)
+        
+        datas.bind(to: tableView.rx.items) { (tableView, row, element) in
+            let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
+            cell.textLabel?.text = element.vcName
+            cell.detailTextLabel?.text = element.title
+            return cell
         }.disposed(by: disposeBag)
         
         tableView.rx.modelSelected(ViewControllerDataModel.self).subscribe(onNext: {data in
-//            print("\(data)")
+            //            print("\(data)")
             let vc = UIViewController.classFromString(data.vcName)
             self.navigationController?.pushViewController(vc, animated: true)
         }).disposed(by: disposeBag)
         
     }
-
-
+    
+    
 }
 

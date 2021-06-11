@@ -63,7 +63,7 @@ class RxSwift9ViewController: BaseViewController {
     /// 该方法实现只处理在指定位置的事件。
     func elementAt() {
         Observable.of(1, 2, 3, 4)
-            .element(at: 2)
+            .elementAt(2)
             .subscribe(onNext: { print($0) })
             .disposed(by: disposeBag)
     }

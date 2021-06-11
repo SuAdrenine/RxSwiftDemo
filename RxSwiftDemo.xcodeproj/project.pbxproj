@@ -21,12 +21,19 @@
 		EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */; };
 		EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */; };
 		EA128D06260AD8B00025EC33 /* RxSwift7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */; };
+		EA23D8B5266A175F00EBC902 /* RxSwift14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23D8B4266A175F00EBC902 /* RxSwift14ViewController.swift */; };
 		EA384017265E719A00897587 /* RxSwift8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA384016265E719A00897587 /* RxSwift8ViewController.swift */; };
 		EA384019265E71A500897587 /* RxSwift9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA384018265E71A500897587 /* RxSwift9ViewController.swift */; };
 		EA38401B265E71AE00897587 /* RxSwift10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38401A265E71AE00897587 /* RxSwift10ViewController.swift */; };
 		EA38401D265E720A00897587 /* RxSwift11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38401C265E720A00897587 /* RxSwift11ViewController.swift */; };
 		EA38401F265E721300897587 /* RxSwift12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38401E265E721300897587 /* RxSwift12ViewController.swift */; };
 		EA384021265E721D00897587 /* RxSwift13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA384020265E721D00897587 /* RxSwift13ViewController.swift */; };
+		EAE32DF2266DC4E40060A047 /* RxSwift34ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */; };
+		EAE32DF52671A9CF0060A047 /* RxSwift52ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */; };
+		EAE32DF82671F6370060A047 /* RxSwift52GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */; };
+		EAE32DFA2671F8920060A047 /* RxSwift52GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF92671F8920060A047 /* RxSwift52GitHubModel.swift */; };
+		EAE32DFC2671FA3C0060A047 /* RxSwift52GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DFB2671FA3C0060A047 /* RxSwift52GitHubService.swift */; };
+		EAE32E69267214580060A047 /* RxSwift52ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32E68267214580060A047 /* RxSwift52ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,12 +55,19 @@
 		EA128CFC2609DEB80025EC33 /* RxSwift5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift5ViewController.swift; sourceTree = "<group>"; };
 		EA128D02260AD1660025EC33 /* RxSwift6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift6ViewController.swift; sourceTree = "<group>"; };
 		EA128D05260AD8B00025EC33 /* RxSwift7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift7ViewController.swift; sourceTree = "<group>"; };
+		EA23D8B4266A175F00EBC902 /* RxSwift14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift14ViewController.swift; sourceTree = "<group>"; };
 		EA384016265E719A00897587 /* RxSwift8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift8ViewController.swift; sourceTree = "<group>"; };
 		EA384018265E71A500897587 /* RxSwift9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift9ViewController.swift; sourceTree = "<group>"; };
 		EA38401A265E71AE00897587 /* RxSwift10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift10ViewController.swift; sourceTree = "<group>"; };
 		EA38401C265E720A00897587 /* RxSwift11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift11ViewController.swift; sourceTree = "<group>"; };
 		EA38401E265E721300897587 /* RxSwift12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift12ViewController.swift; sourceTree = "<group>"; };
 		EA384020265E721D00897587 /* RxSwift13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift13ViewController.swift; sourceTree = "<group>"; };
+		EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift34ViewController.swift; sourceTree = "<group>"; };
+		EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52ViewController.swift; sourceTree = "<group>"; };
+		EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52GitHubAPI.swift; sourceTree = "<group>"; };
+		EAE32DF92671F8920060A047 /* RxSwift52GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52GitHubModel.swift; sourceTree = "<group>"; };
+		EAE32DFB2671FA3C0060A047 /* RxSwift52GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52GitHubService.swift; sourceTree = "<group>"; };
+		EAE32E68267214580060A047 /* RxSwift52ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,7 @@
 		EA128CBF2605F2430025EC33 /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EAE32DFD267205940060A047 /* Libs */,
 				EA128CE226083DBC0025EC33 /* Extension */,
 				EA128CDB26083B7E0025EC33 /* ViewController */,
 				EA128CC02605F2430025EC33 /* AppDelegate.swift */,
@@ -120,8 +135,26 @@
 		EA128CDB26083B7E0025EC33 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EAE32DF32671A9B40060A047 /* MVVM */,
+				EAE32DF0266DC4CA0060A047 /* UI */,
 				EA128CE9260842070025EC33 /* BaseViewController.swift */,
 				EA128CC42605F2430025EC33 /* RootViewController.swift */,
+				EAE32DEF266DC4A10060A047 /* Functions */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EA128CE226083DBC0025EC33 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA128CE326083DCD0025EC33 /* ViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EAE32DEF266DC4A10060A047 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
 				EA128CDC26083B990025EC33 /* RxSwift2ViewController.swift */,
 				EA128CDF26083D320025EC33 /* RxSwift3ViewController.swift */,
 				EA128CED260876AF0025EC33 /* RxSwift4ViewController.swift */,
@@ -134,16 +167,44 @@
 				EA38401C265E720A00897587 /* RxSwift11ViewController.swift */,
 				EA38401E265E721300897587 /* RxSwift12ViewController.swift */,
 				EA384020265E721D00897587 /* RxSwift13ViewController.swift */,
+				EA23D8B4266A175F00EBC902 /* RxSwift14ViewController.swift */,
 			);
-			path = ViewController;
+			path = Functions;
 			sourceTree = "<group>";
 		};
-		EA128CE226083DBC0025EC33 /* Extension */ = {
+		EAE32DF0266DC4CA0060A047 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				EA128CE326083DCD0025EC33 /* ViewControllerExtension.swift */,
+				EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */,
 			);
-			path = Extension;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EAE32DF32671A9B40060A047 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EAE32DF62671F60F0060A047 /* RxSwift52 */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		EAE32DF62671F60F0060A047 /* RxSwift52 */ = {
+			isa = PBXGroup;
+			children = (
+				EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */,
+				EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */,
+				EAE32DF92671F8920060A047 /* RxSwift52GitHubModel.swift */,
+				EAE32DFB2671FA3C0060A047 /* RxSwift52GitHubService.swift */,
+				EAE32E68267214580060A047 /* RxSwift52ViewModel.swift */,
+			);
+			path = RxSwift52;
+			sourceTree = "<group>";
+		};
+		EAE32DFD267205940060A047 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +304,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA128CE026083D320025EC33 /* RxSwift3ViewController.swift in Sources */,
+				EAE32E69267214580060A047 /* RxSwift52ViewModel.swift in Sources */,
 				EA38401F265E721300897587 /* RxSwift12ViewController.swift in Sources */,
 				EA384021265E721D00897587 /* RxSwift13ViewController.swift in Sources */,
 				EA128CC52605F2430025EC33 /* RootViewController.swift in Sources */,
 				EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */,
+				EA23D8B5266A175F00EBC902 /* RxSwift14ViewController.swift in Sources */,
 				EA38401B265E71AE00897587 /* RxSwift10ViewController.swift in Sources */,
+				EAE32DF2266DC4E40060A047 /* RxSwift34ViewController.swift in Sources */,
 				EA128CEE260876AF0025EC33 /* RxSwift4ViewController.swift in Sources */,
 				EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */,
 				EA128CE426083DCD0025EC33 /* ViewControllerExtension.swift in Sources */,
@@ -258,6 +322,10 @@
 				EA384017265E719A00897587 /* RxSwift8ViewController.swift in Sources */,
 				EA38401D265E720A00897587 /* RxSwift11ViewController.swift in Sources */,
 				EA128CEA260842070025EC33 /* BaseViewController.swift in Sources */,
+				EAE32DF82671F6370060A047 /* RxSwift52GitHubAPI.swift in Sources */,
+				EAE32DF52671A9CF0060A047 /* RxSwift52ViewController.swift in Sources */,
+				EAE32DFA2671F8920060A047 /* RxSwift52GitHubModel.swift in Sources */,
+				EAE32DFC2671FA3C0060A047 /* RxSwift52GitHubService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
