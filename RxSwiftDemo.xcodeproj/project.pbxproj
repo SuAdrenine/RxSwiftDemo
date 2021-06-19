@@ -32,6 +32,7 @@
 		EAA3E89C267C8A6900B0350C /* RxSwift53GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E89B267C8A6900B0350C /* RxSwift53GitHubAPI.swift */; };
 		EAA3E89E267C8A7B00B0350C /* RxSwift53GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E89D267C8A7B00B0350C /* RxSwift53GitHubModel.swift */; };
 		EAA3E8A0267C8B0D00B0350C /* RxSwift53ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E89F267C8B0D00B0350C /* RxSwift53ViewModel.swift */; };
+		EAA3E8A2267C9C5000B0350C /* RxSwift53GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8A1267C9C5000B0350C /* RxSwift53GitHubService.swift */; };
 		EAE32DF2266DC4E40060A047 /* RxSwift34ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */; };
 		EAE32DF52671A9CF0060A047 /* RxSwift52ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */; };
 		EAE32DF82671F6370060A047 /* RxSwift52GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */; };
@@ -70,6 +71,7 @@
 		EAA3E89B267C8A6900B0350C /* RxSwift53GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift53GitHubAPI.swift; sourceTree = "<group>"; };
 		EAA3E89D267C8A7B00B0350C /* RxSwift53GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift53GitHubModel.swift; sourceTree = "<group>"; };
 		EAA3E89F267C8B0D00B0350C /* RxSwift53ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift53ViewModel.swift; sourceTree = "<group>"; };
+		EAA3E8A1267C9C5000B0350C /* RxSwift53GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift53GitHubService.swift; sourceTree = "<group>"; };
 		EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift34ViewController.swift; sourceTree = "<group>"; };
 		EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52ViewController.swift; sourceTree = "<group>"; };
 		EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52GitHubAPI.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				EAA3E89B267C8A6900B0350C /* RxSwift53GitHubAPI.swift */,
 				EAA3E89D267C8A7B00B0350C /* RxSwift53GitHubModel.swift */,
 				EAA3E89F267C8B0D00B0350C /* RxSwift53ViewModel.swift */,
+				EAA3E8A1267C9C5000B0350C /* RxSwift53GitHubService.swift */,
 			);
 			path = RxSwift53;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */,
 				EA23D8B5266A175F00EBC902 /* RxSwift14ViewController.swift in Sources */,
 				EA38401B265E71AE00897587 /* RxSwift10ViewController.swift in Sources */,
+				EAA3E8A2267C9C5000B0350C /* RxSwift53GitHubService.swift in Sources */,
 				EAE32DF2266DC4E40060A047 /* RxSwift34ViewController.swift in Sources */,
 				EA128CEE260876AF0025EC33 /* RxSwift4ViewController.swift in Sources */,
 				EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */,
