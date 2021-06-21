@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import ObjectMapper
  
-class GitHubNetworkService {
+class RxSwift53GitHubNetworkService {
      
     //搜索资源数据
     func searchRepositories(query:String) -> Driver<RxSwift53GitHubRepositories> {

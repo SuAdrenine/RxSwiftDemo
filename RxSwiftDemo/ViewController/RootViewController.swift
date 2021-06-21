@@ -49,7 +49,8 @@ class RootViewController: BaseViewController {
         ViewControllerDataModel.init(vcName: "RxSwift13ViewController", title: "RxSwift的使用详解13（连接操作符：connect、publish、replay、multicast）"),
         ViewControllerDataModel.init(vcName: "RxSwift34ViewController", title: "RxSwift的使用详解34（UITableView的使用5：可编辑表格）"),
         ViewControllerDataModel.init(vcName: "RxSwift52ViewController", title: "RxSwift的使用详解52（MVVM架构演示2：使用Observable样例）"),
-        ViewControllerDataModel.init(vcName: "RxSwift53ViewController", title: "RxSwift的使用详解53（MVVM架构演示3：使用Driver样例）")
+        ViewControllerDataModel.init(vcName: "RxSwift53ViewController", title: "RxSwift的使用详解53（MVVM架构演示3：使用Driver样例）"),
+        ViewControllerDataModel.init(vcName: "RxSwift54ViewController", title: "RxSwift的使用详解54（一个用户注册样例1：基本功能实现）")
     ])
     
     let disposeBag = DisposeBag()

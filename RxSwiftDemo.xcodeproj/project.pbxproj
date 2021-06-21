@@ -33,6 +33,13 @@
 		EAA3E89E267C8A7B00B0350C /* RxSwift53GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E89D267C8A7B00B0350C /* RxSwift53GitHubModel.swift */; };
 		EAA3E8A0267C8B0D00B0350C /* RxSwift53ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E89F267C8B0D00B0350C /* RxSwift53ViewModel.swift */; };
 		EAA3E8A2267C9C5000B0350C /* RxSwift53GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8A1267C9C5000B0350C /* RxSwift53GitHubService.swift */; };
+		EAA3E8A6267D887B00B0350C /* RxSwift54ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8A4267D887B00B0350C /* RxSwift54ViewController.swift */; };
+		EAA3E8A7267D887B00B0350C /* RxSwift54ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA3E8A5267D887B00B0350C /* RxSwift54ViewController.xib */; };
+		EAA3E8A9267D8E4000B0350C /* RxSwift54GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8A8267D8E4000B0350C /* RxSwift54GitHubNetworkService.swift */; };
+		EAA3E8AB267D8ED700B0350C /* RxSwift54ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8AA267D8ED700B0350C /* RxSwift54ValidationResult.swift */; };
+		EAA3E8AD2680298700B0350C /* RxSwift54GitHubSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8AC2680298700B0350C /* RxSwift54GitHubSignupService.swift */; };
+		EAA3E8AF26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8AE26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift */; };
+		EAA3E8B12680379D00B0350C /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8B02680379D00B0350C /* UILabelExtension.swift */; };
 		EAE32DF2266DC4E40060A047 /* RxSwift34ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */; };
 		EAE32DF52671A9CF0060A047 /* RxSwift52ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */; };
 		EAE32DF82671F6370060A047 /* RxSwift52GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */; };
@@ -72,6 +79,13 @@
 		EAA3E89D267C8A7B00B0350C /* RxSwift53GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift53GitHubModel.swift; sourceTree = "<group>"; };
 		EAA3E89F267C8B0D00B0350C /* RxSwift53ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift53ViewModel.swift; sourceTree = "<group>"; };
 		EAA3E8A1267C9C5000B0350C /* RxSwift53GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift53GitHubService.swift; sourceTree = "<group>"; };
+		EAA3E8A4267D887B00B0350C /* RxSwift54ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift54ViewController.swift; sourceTree = "<group>"; };
+		EAA3E8A5267D887B00B0350C /* RxSwift54ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwift54ViewController.xib; sourceTree = "<group>"; };
+		EAA3E8A8267D8E4000B0350C /* RxSwift54GitHubNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift54GitHubNetworkService.swift; sourceTree = "<group>"; };
+		EAA3E8AA267D8ED700B0350C /* RxSwift54ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift54ValidationResult.swift; sourceTree = "<group>"; };
+		EAA3E8AC2680298700B0350C /* RxSwift54GitHubSignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift54GitHubSignupService.swift; sourceTree = "<group>"; };
+		EAA3E8AE26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift54GithubSignupViewModel.swift; sourceTree = "<group>"; };
+		EAA3E8B02680379D00B0350C /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift34ViewController.swift; sourceTree = "<group>"; };
 		EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52ViewController.swift; sourceTree = "<group>"; };
 		EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52GitHubAPI.swift; sourceTree = "<group>"; };
@@ -158,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				EA128CE326083DCD0025EC33 /* ViewControllerExtension.swift */,
+				EAA3E8B02680379D00B0350C /* UILabelExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -172,6 +187,19 @@
 				EAA3E8A1267C9C5000B0350C /* RxSwift53GitHubService.swift */,
 			);
 			path = RxSwift53;
+			sourceTree = "<group>";
+		};
+		EAA3E8A3267D886100B0350C /* RxSwift54 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3E8A4267D887B00B0350C /* RxSwift54ViewController.swift */,
+				EAA3E8A5267D887B00B0350C /* RxSwift54ViewController.xib */,
+				EAA3E8A8267D8E4000B0350C /* RxSwift54GitHubNetworkService.swift */,
+				EAA3E8AA267D8ED700B0350C /* RxSwift54ValidationResult.swift */,
+				EAA3E8AC2680298700B0350C /* RxSwift54GitHubSignupService.swift */,
+				EAA3E8AE26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift */,
+			);
+			path = RxSwift54;
 			sourceTree = "<group>";
 		};
 		EAE32DEF266DC4A10060A047 /* Functions */ = {
@@ -205,6 +233,7 @@
 		EAE32DF32671A9B40060A047 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				EAA3E8A3267D886100B0350C /* RxSwift54 */,
 				EAA3E898267C8A1F00B0350C /* RxSwift53 */,
 				EAE32DF62671F60F0060A047 /* RxSwift52 */,
 			);
@@ -291,6 +320,7 @@
 				EA128CCD2605F2460025EC33 /* LaunchScreen.storyboard in Resources */,
 				EA128CCA2605F2460025EC33 /* Assets.xcassets in Resources */,
 				EA128CC82605F2430025EC33 /* Main.storyboard in Resources */,
+				EAA3E8A7267D887B00B0350C /* RxSwift54ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +358,9 @@
 			files = (
 				EA128CE026083D320025EC33 /* RxSwift3ViewController.swift in Sources */,
 				EAE32E69267214580060A047 /* RxSwift52ViewModel.swift in Sources */,
+				EAA3E8B12680379D00B0350C /* UILabelExtension.swift in Sources */,
 				EA38401F265E721300897587 /* RxSwift12ViewController.swift in Sources */,
+				EAA3E8AD2680298700B0350C /* RxSwift54GitHubSignupService.swift in Sources */,
 				EAA3E89C267C8A6900B0350C /* RxSwift53GitHubAPI.swift in Sources */,
 				EA384021265E721D00897587 /* RxSwift13ViewController.swift in Sources */,
 				EA128CC52605F2430025EC33 /* RootViewController.swift in Sources */,
@@ -337,19 +369,23 @@
 				EA23D8B5266A175F00EBC902 /* RxSwift14ViewController.swift in Sources */,
 				EA38401B265E71AE00897587 /* RxSwift10ViewController.swift in Sources */,
 				EAA3E8A2267C9C5000B0350C /* RxSwift53GitHubService.swift in Sources */,
+				EAA3E8A6267D887B00B0350C /* RxSwift54ViewController.swift in Sources */,
 				EAE32DF2266DC4E40060A047 /* RxSwift34ViewController.swift in Sources */,
 				EA128CEE260876AF0025EC33 /* RxSwift4ViewController.swift in Sources */,
 				EA128D03260AD1660025EC33 /* RxSwift6ViewController.swift in Sources */,
 				EAA3E89E267C8A7B00B0350C /* RxSwift53GitHubModel.swift in Sources */,
+				EAA3E8A9267D8E4000B0350C /* RxSwift54GitHubNetworkService.swift in Sources */,
 				EA128CE426083DCD0025EC33 /* ViewControllerExtension.swift in Sources */,
 				EA384019265E71A500897587 /* RxSwift9ViewController.swift in Sources */,
 				EA128CC12605F2430025EC33 /* AppDelegate.swift in Sources */,
 				EA128CDD26083B990025EC33 /* RxSwift2ViewController.swift in Sources */,
+				EAA3E8AF26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift in Sources */,
 				EA128D06260AD8B00025EC33 /* RxSwift7ViewController.swift in Sources */,
 				EA384017265E719A00897587 /* RxSwift8ViewController.swift in Sources */,
 				EA38401D265E720A00897587 /* RxSwift11ViewController.swift in Sources */,
 				EA128CEA260842070025EC33 /* BaseViewController.swift in Sources */,
 				EAE32DF82671F6370060A047 /* RxSwift52GitHubAPI.swift in Sources */,
+				EAA3E8AB267D8ED700B0350C /* RxSwift54ValidationResult.swift in Sources */,
 				EAE32DF52671A9CF0060A047 /* RxSwift52ViewController.swift in Sources */,
 				EAE32DFA2671F8920060A047 /* RxSwift52GitHubModel.swift in Sources */,
 				EAA3E89A267C8A5000B0350C /* RxSwift53ViewController.swift in Sources */,

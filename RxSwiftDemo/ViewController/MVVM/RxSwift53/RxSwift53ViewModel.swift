@@ -11,7 +11,7 @@ import RxCocoa
 
 class RxSwift53ViewModel {
     /**** 数据请求服务 ***/
-    let networkService = GitHubNetworkService()
+    let networkService = RxSwift53GitHubNetworkService()
     
     /**** 输入部分 ***/
     //查询行为
