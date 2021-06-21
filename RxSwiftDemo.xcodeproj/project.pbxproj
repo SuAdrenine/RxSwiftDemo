@@ -40,6 +40,7 @@
 		EAA3E8AD2680298700B0350C /* RxSwift54GitHubSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8AC2680298700B0350C /* RxSwift54GitHubSignupService.swift */; };
 		EAA3E8AF26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8AE26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift */; };
 		EAA3E8B12680379D00B0350C /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8B02680379D00B0350C /* UILabelExtension.swift */; };
+		EAA3E8B526806D5100B0350C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3E8B426806D5100B0350C /* ActivityIndicator.swift */; };
 		EAE32DF2266DC4E40060A047 /* RxSwift34ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */; };
 		EAE32DF52671A9CF0060A047 /* RxSwift52ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */; };
 		EAE32DF82671F6370060A047 /* RxSwift52GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */; };
@@ -86,6 +87,7 @@
 		EAA3E8AC2680298700B0350C /* RxSwift54GitHubSignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift54GitHubSignupService.swift; sourceTree = "<group>"; };
 		EAA3E8AE26802D1700B0350C /* RxSwift54GithubSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift54GithubSignupViewModel.swift; sourceTree = "<group>"; };
 		EAA3E8B02680379D00B0350C /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		EAA3E8B426806D5100B0350C /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift34ViewController.swift; sourceTree = "<group>"; };
 		EAE32DF42671A9CF0060A047 /* RxSwift52ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52ViewController.swift; sourceTree = "<group>"; };
 		EAE32DF72671F6370060A047 /* RxSwift52GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift52GitHubAPI.swift; sourceTree = "<group>"; };
@@ -202,6 +204,14 @@
 			path = RxSwift54;
 			sourceTree = "<group>";
 		};
+		EAA3E8B326806CFE00B0350C /* RxSwift34 */ = {
+			isa = PBXGroup;
+			children = (
+				EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */,
+			);
+			path = RxSwift34;
+			sourceTree = "<group>";
+		};
 		EAE32DEF266DC4A10060A047 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,7 +235,7 @@
 		EAE32DF0266DC4CA0060A047 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				EAE32DF1266DC4E40060A047 /* RxSwift34ViewController.swift */,
+				EAA3E8B426806D5100B0350C /* ActivityIndicator.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -233,6 +243,7 @@
 		EAE32DF32671A9B40060A047 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				EAA3E8B326806CFE00B0350C /* RxSwift34 */,
 				EAA3E8A3267D886100B0350C /* RxSwift54 */,
 				EAA3E898267C8A1F00B0350C /* RxSwift53 */,
 				EAE32DF62671F60F0060A047 /* RxSwift52 */,
@@ -367,6 +378,7 @@
 				EAA3E8A0267C8B0D00B0350C /* RxSwift53ViewModel.swift in Sources */,
 				EA128CFD2609DEB80025EC33 /* RxSwift5ViewController.swift in Sources */,
 				EA23D8B5266A175F00EBC902 /* RxSwift14ViewController.swift in Sources */,
+				EAA3E8B526806D5100B0350C /* ActivityIndicator.swift in Sources */,
 				EA38401B265E71AE00897587 /* RxSwift10ViewController.swift in Sources */,
 				EAA3E8A2267C9C5000B0350C /* RxSwift53GitHubService.swift in Sources */,
 				EAA3E8A6267D887B00B0350C /* RxSwift54ViewController.swift in Sources */,

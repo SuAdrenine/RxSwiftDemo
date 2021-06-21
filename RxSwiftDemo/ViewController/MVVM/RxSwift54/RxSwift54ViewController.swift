@@ -18,6 +18,7 @@ class RxSwift54ViewController: BaseViewController {
     @IBOutlet weak var confirmPwdTF: UITextField!
     @IBOutlet weak var confirmPwdTipsLB: UILabel!
     @IBOutlet weak var signupBtn: UIButton!
+    @IBOutlet weak var signInActivityIndicator: UIActivityIndicatorView!
     
     let disposeBag = DisposeBag()
     
@@ -47,6 +48,11 @@ class RxSwift54ViewController: BaseViewController {
             })
             .disposed(by: disposeBag
             )
+        
+        // 当前是否正在注册
+        viewModel.isSignIning
+            .drive(signInActivityIndicator.rx.isAnimating)
+            .disposed(by: disposeBag)
         
         viewModel.signupResult
             .drive(onNext: { [unowned self] result in

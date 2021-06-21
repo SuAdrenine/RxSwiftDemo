@@ -17,6 +17,9 @@ class RxSwift54GithubSignupViewModel {
     let signEnable: Driver<Bool>
     let signupResult: Driver<Bool>
     
+    // 正在注册
+    let isSignIning: Driver<Bool>
+    
     init(
         input:(
             username: Driver<String>,
@@ -51,10 +54,15 @@ class RxSwift54GithubSignupViewModel {
             (username: $0, password: $1)
         }
         
+        let activityIndicator = ActivityIndicator()
+        isSignIning = activityIndicator.asDriver()
+        
         signupResult = input.loginTaps.withLatestFrom(usernameAndPassword)
             .flatMapLatest { pair in
-                return dependency.networkService.signup(pair.username, password: pair.password).asDriver(onErrorJustReturn: false)
+                return dependency.networkService.signup(pair.username, password: pair.password).trackActivity(activityIndicator).asDriver(onErrorJustReturn: false)
             }
+        
+        
     }
 }
 

@@ -14,6 +14,7 @@
                 <outlet property="confirmPwdTipsLB" destination="Zng-VA-2Xs" id="hBn-FE-dVn"/>
                 <outlet property="passwordTF" destination="vfs-sf-oiF" id="oHe-nL-KjD"/>
                 <outlet property="passwordTipsLB" destination="ugI-Yo-qIB" id="TDx-dj-5re"/>
+                <outlet property="signInActivityIndicator" destination="3FA-Na-5g5" id="4Na-cO-8sC"/>
                 <outlet property="signupBtn" destination="FZR-2d-NkN" id="IN6-qy-jk9"/>
                 <outlet property="userNameTF" destination="XgE-rH-pxU" id="5XF-jq-tgV"/>
                 <outlet property="userNameTipsLB" destination="4qM-5N-FoR" id="DzL-re-vkp"/>
@@ -72,6 +73,11 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                 </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="3FA-Na-5g5">
+                    <rect key="frame" x="272" y="400" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
